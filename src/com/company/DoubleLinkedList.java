@@ -11,7 +11,7 @@ class DoubleLl{
     Node1 head, tail;
     Scanner sc = new Scanner(System.in);
     int nde =0;
-    public void creat(){
+    public void create(){
         System.out.println("Enter the number of nodes : ");
         nde = sc.nextInt();
         System.out.println("Enter the data : ");
@@ -115,7 +115,7 @@ class DoubleLl{
 public class DoubleLinkedList {
     public static void main(String[] args) {
         DoubleLl dll = new DoubleLl();
-        dll.creat();;
+        dll.create();;
      // dll.insertAtFirst();
         //dll.insertAtAny(17);
         //dll.deleteFirst();
